@@ -1,0 +1,44 @@
+.info .text {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0.3rem;
+  left: 10%;
+  width: 80%;
+  padding: 1rem;
+}
+.cursel {
+  cursor: pointer;
+}
+.lightBox {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lightBox .Box {
+  background-image: url(../photo/portfolio-1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+}
+.lightBox .Box i {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.lightBox .Box #close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
